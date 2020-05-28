@@ -26,7 +26,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
-<body>
+<body onload="loadFn()">
+<div id="loader"> 
+  </div>
   <div class="main">
     <nav class="navbar navbar-expand-md navbar-light">
       <a class="navbar-brand" href="/" id="iconLogo">SBYDC</a>
@@ -220,6 +222,13 @@
       $(this).attr('src', 'images/Social-FbRoll.png');
     });
   </script>
+  <script>
+      var preloader=document.getElementById('loader');
+      function loadFn()
+      {
+          preloader.style.display='none';
+      }
+      </script>
 </body>
 
 </html>
