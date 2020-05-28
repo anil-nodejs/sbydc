@@ -1,0 +1,441 @@
+body {
+  margin: 0;
+  position: relative;
+}
+
+/* font load  */
+@font-face {
+  font-family: wBQBold;
+  src: url("../font/WindsorBQ-Bold.otf");
+}
+@font-face {
+  font-family: Mantel;
+  src: url("../font/Mantel.ttf");
+}
+@font-face {
+  font-family: wcfont;
+  src: url("../font/WindsorCondensed.ttf");
+}
+
+.main {
+  background: url(../images/RightPattern.png);
+  background-position: unset;
+  background-repeat: repeat-y;
+  position: absolute;
+  background-size: 8%;
+}
+.rightBgImg {
+  background: url(../images/RightPattern.png);
+  background-position: unset;
+  background-repeat: repeat-y;
+  background-size: 10%;
+  background-position-x: 100%;
+}
+#navbarNav {
+  text-align: center;
+}
+.tbw {
+  overflow: hidden;
+}
+#iconLogo {
+  display: none;
+}
+#TBWLogo {
+  position: absolute;
+  left: 84% !important;
+  top: 81% !important;
+  z-index: 1;
+}
+
+.tbw a {
+  float: left;
+  color: #009688;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar-light .navbar-brand {
+  left: 8% !important;
+  position: relative;
+  color: #009688 !important;
+  font-family: wBQBold;
+  font-size: 30px;
+}
+.navbar-nav > li {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.tbw a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.tbw a.active {
+  background-color: #4caf50;
+  color: white;
+}
+.menutext,
+.menutext2,
+.menutext3 {
+  text-align: center;
+}
+.tbw-right {
+  float: right;
+}
+p {
+  color: #009688;
+  font-size: 35px;
+  font-family: wcfont;
+}
+#logoPng {
+  width: 50%;
+}
+.Banner {
+  z-index: -1;
+  position: relative;
+}
+#tbwBannerC {
+  background-image: url("../images/Banner.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#leftPatternImg {
+  position: absolute;
+  top: 0px;
+  width: 8%;
+}
+.tbwContentCPage1 {
+  background-image: url(../images/BGTexture.jpg);
+  width: 100%;
+  background-size: 100%;
+  z-index: -1;
+  position: relative;
+}
+.leftPatternImg2 {
+  position: absolute;
+  top: 0px;
+  width: 8%;
+}
+
+#leftPatternImg2 {
+  width: 8%;
+}
+.rightPatternImg {
+  width: 9%;
+  position: absolute;
+  right: 0;
+}
+.navbar-light .navbar-brand {
+  left: 15%;
+  position: relative;
+  color: #009688 !important;
+  font-family: wBQBold;
+  font-size: 25px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #009688 !important;
+  font-family: wcfont;
+  font-size: 42px;
+}
+.menuTextHead,
+.menuTextHead2,
+.menuTextHead3 {
+  font-size: 35px;
+  padding-top: 60px;
+  font-family: Mantel;
+  color: #009688;
+}
+.deviderImg {
+  width: 48%;
+  margin: 0 auto;
+  display: block;
+}
+.menutext4 {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  width: 48%;
+}
+.aboutImg {
+  width: 35%;
+}
+.shareHeadtext {
+  font-size: 30px;
+  font-family: wBQBold;
+  text-align: center;
+}
+
+.shareLinkList {
+  width: 54%;
+  margin: 0 auto !important;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.shareImg {
+  width: 70%;
+}
+.fDivLink {
+  text-align: center;
+  font-size: 30px;
+  font-family: wBQBold;
+  cursor: pointer;
+}
+.finalDivLink {
+  padding-top: 40px;
+}
+.shareLinkList {
+  padding-top: 40px;
+  width: 16%;
+}
+
+/* #instaShare:hover {
+  content: url("http://www.thalaivars.com/test/assets/Social-InstRoll.png");
+  cursor: pointer;
+}
+#fbShare:hover {
+  content: url("http://www.thalaivars.com/test/assets/Social-FbRoll.png");
+  cursor: pointer;
+}
+#YtShare:hover {
+  content: url("http://www.thalaivars.com/test/assets/Social-YtRoll.png");
+  cursor: pointer;
+}
+#tShare:hover {
+  content: url("http://www.thalaivars.com/test/assets/Social-TwRoll.png");
+  cursor: pointer;
+} */
+.aboutText {
+  font-size: 25px !important;
+  padding-top: 20px;
+}
+.shareHeader {
+  padding: 3px;
+}
+.navbar {
+  /* overflow: hidden; */
+  /* position: fixed !important;
+  top: 0;
+  width: 100%;
+  background-color: white; */
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,150,136,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+  border: none;
+  outline: none;
+}
+.fDivLink a,
+.fDivLink a:hover {
+  color: #009688 !important;
+  text-decoration: none;
+}
+/* tablet */
+@media only screen and (min-width: 768px) and (max-width: 968px) {
+  .navbar-light .navbar-brand {
+    left: 15%;
+    position: relative;
+    color: #009688 !important;
+    font-family: wBQBold;
+    font-size: 19px;
+  }
+  .navbar-nav > li {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 30px;
+  }
+  .main {
+    background-size: 10%;
+  }
+  .menuTextHead,
+  .menuTextHead2,
+  .menuTextHead3 {
+    font-size: 26px;
+    padding-top: 30px;
+    font-family: Mantel;
+    color: #009688;
+  }
+  p {
+    font-size: 25px;
+  }
+  .aboutText {
+    font-size: 17px !important;
+  }
+  .shareLinkList {
+    padding-top: 40px;
+    width: 24%;
+  }
+}
+/* for mobile */
+@media only screen and (max-width: 600px) {
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,150,136,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+  }
+  #iconLogo {
+    display: block;
+    position: relative;
+    left: 24% !important;
+    width: 50%;
+    text-align: center;
+  }
+  .iconLogoImg {
+    width: 100%;
+  }
+  .navbar-brand {
+    position: relative;
+    left: 10% !important;
+  }
+  #leftPatternImg {
+    width: 14%;
+  }
+  #leftPatternImg2 {
+    width: 14%;
+  }
+  .rightPatternImg {
+    width: 14%;
+  }
+
+  .navbar-light .navbar-brand {
+    color: #009688 !important;
+  }
+
+  .navbar-light .navbar-brand {
+    position: relative;
+    color: #009688 !important;
+    font-family: wBQBold;
+    font-size: 20px;
+  }
+  .main {
+    background-size: 9%;
+  }
+  p {
+    color: #009688;
+    font-size: 18px;
+    font-family: wcfont;
+  }
+  .menuTextHead,
+  .menuTextHead2,
+  .menuTextHead3 {
+    font-size: 18px;
+  }
+  .menutext4 {
+    width: 70% !important;
+  }
+  .shareImg {
+    width: 60%;
+  }
+  .shareHeadtext {
+    font-size: 17px;
+    font-family: wBQBold;
+    text-align: center;
+  }
+  .shareLinkList {
+    padding-top: 15px;
+    width: 50%;
+  }
+  .aboutText {
+    font-size: 12px !important;
+    padding-top: 11px;
+  }
+  .shareHeadtext {
+    font-size: 12px;
+  }
+  .fDivLink {
+    text-align: center;
+    font-size: 15px;
+    font-family: wBQBold;
+  }
+  #TBWLogo {
+    position: absolute;
+    left: 84% !important;
+    top: 81% !important;
+    z-index: 1;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #009688 !important;
+    font-family: wcfont;
+    font-size: 28px;
+  }
+  #icontextMobile {
+    display: none;
+  }
+}
+
+/* for mobile 2 with above 600px */
+@media only screen and (min-width: 600px) and (max-width: 760px) {
+  .navbar-light .navbar-brand {
+    left: 15%;
+    position: relative;
+    color: #009688 !important;
+    font-family: wBQBold;
+    font-size: 24px;
+  }
+  .navbar-nav > li {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 30px;
+  }
+  .main {
+    background-size: 10%;
+  }
+  .menuTextHead,
+  .menuTextHead2,
+  .menuTextHead3 {
+    font-size: 26px;
+    padding-top: 30px;
+    font-family: Mantel;
+    color: #009688;
+  }
+  p {
+    font-size: 25px;
+  }
+  .aboutText {
+    font-size: 17px !important;
+  }
+  .shareLinkList {
+    padding-top: 40px;
+    width: 24%;
+  }
+  .menutext4 {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    width: 62%;
+  }
+  .shareHeadtext {
+    font-size: 20px;
+    font-family: wBQBold;
+    text-align: center;
+  }
+  #TBWLogo {
+    position: absolute;
+    left: 84% !important;
+    top: 81% !important;
+    z-index: 1;
+  }
+  #icontextMobile {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #carouselExampleIndicators {
+    height: 84vh;
+  }
+  #TBWLogo {
+    position: absolute;
+    left: 84% !important;
+    top: 81% !important;
+    z-index: 1;
+  }
+}
