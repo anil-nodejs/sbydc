@@ -30,6 +30,7 @@ body {
   background-repeat: repeat-y;
   position: absolute;
   background-size: 8%;
+  width: 100%;
 }
 .rightBgImg {
   background: url(../images/RightPattern.png);
@@ -37,6 +38,9 @@ body {
   background-repeat: repeat-y;
   background-size: 10%;
   background-position-x: 100%;
+}
+.carousel-inner {
+  height: 100%;
 }
 #navbarNav {
   text-align: center;
@@ -99,7 +103,6 @@ p {
   width: 50%;
 }
 .Banner {
-  z-index: -1;
   position: relative;
 }
 #tbwBannerC {
